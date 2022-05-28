@@ -1,0 +1,77 @@
+body{
+    background-image: linear-gradient(to right, #FDC298, #ffc194);
+    position: relative;
+    margin: auto;
+}
+main{
+    position: relative;
+   
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    box-shadow: 5px 2px 5px 5px rgba(112, 112, 112, 0.404);
+    top: 150px;
+    background-image: linear-gradient( to left, #dad3c6,#dbd4c8, #E2E0DB, 
+    #ffffff56
+    ) ;
+
+}
+div#modelo{
+    position: absolute;
+    right: 0px;
+    max-height: 100%;
+}
+.texto_grande{
+    position: absolute;
+    color: #80421660;
+    width: 300px;
+    text-align: left;
+    right: 560px;
+    top: 85px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.texto{
+    position: absolute;
+    text-align: left;
+    width: 400px;
+    right: 460px;
+    top: 250px;
+    color: #91613f;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+    font-size: 16px;
+}
+.label_text{
+    position: absolute;
+    right: 560px;
+    top: 440px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.055) ;
+    border: 1px solid #f5c5a2;
+}
+button{
+    position: absolute;
+    right: 549px;
+    top: 436px;
+    width: 70px;
+    height: 53px;
+    border-radius: 20px;
+    background-color:  #f5c5a2;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.055) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #f5c5a2;
+}
+button:hover{
+    background-color: #ffb988;
+}
+button:focus{
+    
+}

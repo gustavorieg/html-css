@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(34, 34, 34)
+}
+h1{
+    color: white;
+    margin: 150px 0px 40px 0px;
+    font-style: oblique;
+    font-size: 40px;
+}
+div#interface{
+    width: 1000px;
+    margin: -20px auto 0px auto;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-style: oblique;
+    opacity: 0.5;
+    color: white;
+}
+p:hover{ 
+    text-decoration: underline;
+}

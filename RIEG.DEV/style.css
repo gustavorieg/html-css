@@ -1,0 +1,60 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
+
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: red;
+
+}
+
+/*******************************************************************************/
+/*Configuração Header*/
+/*******************************************************************************/
+
+header{
+    background-color: white;
+    max-width: 100%;
+    min-width: 0%;
+    position: relative;
+}
+header#logo{
+    position: absolute;
+}
+header img{
+    padding: 20px 0px 20px 60px;
+    max-width: 100%;
+    height: auto;
+}
+header ul{
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    padding-right: 50px;
+}
+header li{
+    position: relative;
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    color: #656CF7;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+
+/*******************************************************************************/
+/*Configuração body*/
+/*******************************************************************************/
+
+body div#capa img{
+    position: absolute;
+    width: 100%;
+}
+body div#capa h1{
+    position: relative;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: #101698;;
+    top: 300px;
+}

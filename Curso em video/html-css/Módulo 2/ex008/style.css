@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+    text-decoration: none; /*Tirar siblinhado do link*/
+    font-weight: bold;  /*Negrito*/
+}
+a:visited{ /*Mudar a cor do link quando ja foi acessado*/
+    color: darkred;
+
+}
+a:hover{ /*Ao passar o mouse encima era obedecer o comando abaixo*/
+    text-decoration: underline; /*Sublinhar*/
+    color: black;
+}
+a:active{/*Muda a cor ao clicar no link, ao soltar a cor volta ao normal*/
+    color: blue
+}
+a::after{ /* Adicionar a palavra depois da tag "a", que no caso vai ser a palavra que está abaixo junto com os comandos */
+    content: ' [link] '; /*Adicionar qual palavra vai ser escrita após o conteúdo da tag "a"*/
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgrey;    
+}
+a::before{ /*Adicionar palavra ou símbolo abaixo antes da tag "a"*/
+    content: ' ---> ';
+}

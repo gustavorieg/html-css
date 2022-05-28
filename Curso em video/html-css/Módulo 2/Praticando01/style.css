@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to right, #57A3E6,#1280E0);
+    font-family: arial;
+}
+main{
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 5px 5px 15px rgba(88, 87, 87, 0.568);
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+}
+h1{
+    color: #083761;
+    text-shadow: 1px 1px 1px #062A4A;
+    text-align: center;
+}
+h2{
+    color: #0E63AD;
+    text-align: center;
+}
+p{
+    text-align: justify;
+
+}
+.instagram{
+    font-size: 10px;
+}
