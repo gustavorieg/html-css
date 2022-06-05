@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Trilheiros </title>
+    <link rel="stylesheet" href="style.css">
+
+    <html>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Moto Trilha Botuverá</h1>
+        </div>
+        <button onclick="abrirMenu()">&#9776;</button>
+        <ul id="botoesMenu">
+            <a>
+                <li>INÍCIO</li>
+            </a>
+            <a>
+                <li>QUEM SOMOS</li>
+            </a>
+            <a>
+                <li>GALERIA</li>
+            </a>
+            <a>
+                <li>INGRESSOS</li>
+            </a>
+            <a>
+                <li>CONTATO</li>
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="cartaz">
+                <img src="_img/moto_trilha.jpg" alt="">
+            </div>
+            <div class="inicio">
+                <h5>Moto Trilha Botuverá</h5>
+                <h1>O CLUBE</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br><br> Sapiente laboriosam temporibus
+                    suscipit
+                    voluptatem, ipsam assumenda saepe deserunt libero obcaecati accusamus delectus distinctio sint est
+                    asperiores corporis dolorum dolor quasi perspiciatis!</p>
+            </div>
+            <div class="quem_somos_container">
+                <div class="quem_somos">
+                    <H5>Moto trilha</H5>
+                    <h1>HISTÓRIA</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate neque culpa id qui tempore
+                        iste ipsum reiciendis ad ratione! Incidunt mollitia eveniet nam dolorum quibusdam consequuntur
+                        deleniti, asperiores error omnis Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Quisquam explicabo dolore, vero accusamus placeat vel esse tempora voluptatibus sunt non
+                        necessitatibus sequi! Facere sed sunt temporibus enim fuga laudantium facilis!.<br><br>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur, doloremque quos
+                        vitae delectus nemo nisi, dolor ut magni temporibus commodi optio dignissimos minima quas hic
+                        reiciendis accusamus ea natus? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Officiis quae alias ad, ab atque officia optio ipsam molestiae eos hic nesciunt magni voluptatem
+                        sunt aliquam illo in adipisci? Animi, debitis.</p>
+                </div>
+            </div>
+           <div class="galeria_titulo">
+            <h1>GALERIA</h1>
+           </div>
+           <article>
+               <div class="container_fotos">
+               <div class="fotos"><img src="_img/foto1.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto2.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto6.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto2.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto1.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto6.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto1.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto2.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto6.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto2.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto1.jpg" alt=""></div>
+               <div class="fotos"><img src="_img/foto6.jpg" alt=""></div>
+             </div>
+           </article>
+           <div class="ingressos_container">
+
+           </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const arrayHeight = document.getElementsByClassName('height-nav');
+        const navHeight = document.getElementsByTagName('nav')[0].clientHeight;
+
+        for (let navHeightObj of arrayHeight)
+            navHeightObj.style.height = navHeight + 'px';
+
+        function abrirMenu() {
+            const botoesMenu = document.getElementById('botoesMenu');
+
+            botoesMenu.className = botoesMenu.className.includes('responsivo') ? '' : 'responsivo'
+        }
+    </script>
+</body>
+
+</html>
