@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Rubik+Wet+Paint&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+/*Menu Responsivo*/
+main{
+    width: 100%;
+}
+nav {
+    background-color: #161616;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s;
+    padding-right: 50px;
+}
+.logo{
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 20px;
+}
+.logo h1{
+    color: #FFF;
+    
+}
+nav, ul {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li {
+    padding: 20px;
+    color: #FFF;
+}
+button {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-size: 36px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+a:hover,
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 900px) {
+
+    nav,
+    ul {
+        flex-direction: column;
+    }
+
+    ul {
+        text-align: center;
+        margin: 0;
+        height: 0;
+    }
+
+    nav {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin: 10px;
+    }
+
+    button {
+        display: flex;
+    }
+
+    li,
+    ul {
+        width: 100%;
+    }
+
+    ul.responsivo {
+        height: 290px;
+    }
+}
+
+/*Conteúdo*/ 
+/*Início*/  
+
+section .cartaz{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+.cartaz img{
+    width: 100%;
+}
+.inicio{
+    max-width: 800px;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+.inicio h1{
+    text-align: center;
+    padding: 1px 0px 5px 0px;
+    margin: 0px;
+    font-size: 60px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+.inicio h5{
+    text-align: center;
+    padding: 25px 0px 1px 0px;
+    margin: 0px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+.inicio p{
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Conteúdo*/ 
+/*Quem Somos*/  
+
+.quem_somos_container{
+    width: 100%;
+    background-color: #161616;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.quem_somos{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.quem_somos h1{
+    color: white;
+    font-size: 50px;
+    margin: 0px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+.quem_somos h5{
+    margin: 0px;
+    color: yellow;
+    font-size: 20px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+.quem_somos p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Conteúdo*/ 
+/*Galeria*/  
+
+.galeria_titulo{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;  
+    font-family: 'Rubik Wet Paint', cursive;
+}
+.container_fotos{
+    padding-top: 20px;
+    background-color: #161616;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+article img{
+    width: 400px;
+    height: 280px;
+}
+.fotos{
+    align-items: center;
+    padding: 5px;
+  
+
+}
+/*Conteúdo*/ 
+/*Ingressos*/  
